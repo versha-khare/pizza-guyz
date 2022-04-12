@@ -76,7 +76,7 @@ function Footer(props) {
                 <div className={`mb-2 ${style.Row}`}>
                     <span
                         className={`${style.Copyright} ${location.pathname === "/menu" && cart.length > 0 ? style.ExtraPadding : null}`}>
-                        Copyright © {new Date().getFullYear()} Pizza and Pizza | All Rights Reserved
+                        Copyright © {new Date().getFullYear()} Pizza GUYZ | All Rights Reserved
                     </span>
                 </div>
             </div>
