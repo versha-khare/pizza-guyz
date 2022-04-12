@@ -1,0 +1,16 @@
+
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+export const firebaseConfig = {
+  apiKey: "AIzaSyAfnZCT4IBwk7jqjsyiTaBkkiqn49JOTZM",
+  authDomain: "pizza-guyz.firebaseapp.com",
+  projectId: "pizza-guyz",
+  storageBucket: "pizza-guyz.appspot.com",
+  messagingSenderId: "849472704298",
+  appId: "1:849472704298:web:f2b921dc612243a6619853",
+  measurementId: "G-FNRET3W3QB"
+};
+
