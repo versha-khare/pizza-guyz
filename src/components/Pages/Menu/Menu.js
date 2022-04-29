@@ -30,6 +30,9 @@ function Menu(props) {
                 <PageTitle>
                     Menu
                 </PageTitle>
+                <div className="row" style={{height :'1%'}}>
+                        <Cart />
+                    </div>
                 <div className="row">
                     <div className="col-lg-8">
                         {error ?
@@ -40,9 +43,7 @@ function Menu(props) {
                                 <Spinner />
                                 : display}
                     </div>
-                    <div className="col-lg-4 mb-5">
-                        <Cart />
-                    </div>
+                    
                 </div>
             </div>
         </>
